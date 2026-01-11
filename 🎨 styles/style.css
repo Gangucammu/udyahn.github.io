@@ -13,7 +13,12 @@ html, body { height: 100%; }
 body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial;
-  background: radial-gradient(1200px circle at 10% 10%, #12151d, var(--bg));
+  /* Background giống trang gốc */
+  background: radial-gradient(
+    1200px circle at 10% 10%,
+    #12151d,
+    var(--bg)
+  );
   color: var(--fg);
 }
 
